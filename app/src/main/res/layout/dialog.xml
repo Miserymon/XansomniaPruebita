@@ -2,19 +2,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@mipmap/mayhemsitou"
     android:gravity="center">
 
     <EditText
         android:id="@+id/et_guitarbrand"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:hint="Marca de la Guitarra" />
+        android:background="#AE000000"
+        android:fontFamily="@font/medievalsharp"
+        android:hint="Marca de la Guitarra"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBFBF"
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/et_guitarmodel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#AE000000"
+        android:fontFamily="@font/medievalsharp"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBFBF"
         android:textSize="24sp"
         android:hint="Modelo" />
 
@@ -22,6 +31,10 @@
         android:id="@+id/et_guitartype"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#AE000000"
+        android:fontFamily="@font/medievalsharp"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBFBF"
         android:textSize="24sp"
         android:hint="Tipo (Acústica/Eléctrica)" />
 
@@ -29,6 +42,10 @@
         android:id="@+id/et_guitarprice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#AE000000"
+        android:fontFamily="@font/medievalsharp"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBFBF"
         android:textSize="24sp"
         android:hint="Precio" />
 
@@ -36,6 +53,10 @@
         android:id="@+id/et_guitarstoreloca"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#AE000000"
+        android:fontFamily="@font/medievalsharp"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBFBF"
         android:textSize="24sp"
         android:hint="Ubicación de la Tienda" />
 
@@ -49,11 +70,20 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Agregar" />
+            android:fontFamily="@font/medievalsharp"
+            android:text="Agregar"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/btn_cancelthisshit"
             android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/medievalsharp"
+            android:backgroundTint="@color/white"
+            android:textSize="24sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Cancelar" />

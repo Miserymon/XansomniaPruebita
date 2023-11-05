@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@mipmap/oliwiscomotai"
     android:gravity="center"
     tools:context=".MainActivity" >
     <Button
         android:id="@+id/btn_add_guitar"
         android:layout_width="169dp"
         android:layout_height="289dp"
+        android:textColor="@color/white"
         android:background="@drawable/add"
         android:layout_weight="1"
         android:backgroundTint="@color/black"
@@ -18,6 +20,8 @@
     <ListView
         android:id="@+id/list_guitar"
         android:layout_width="match_parent"
+        android:cacheColorHint="@color/white"
         android:layout_height="match_parent"
+        android:fontFamily="@font/medievalsharp"
         android:layout_weight="1" />
 </LinearLayout>

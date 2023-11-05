@@ -3,10 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@mipmap/katato"
     android:gravity="center">
     <TextView
         android:id="@+id/txt_guitarmodel"
         android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:background="#B4000000"
+        android:fontFamily="@font/medievalsharp"
         android:layout_height="wrap_content"
         android:text="Marca de la guitarra:"
         android:textSize="24sp"/>
@@ -14,29 +18,46 @@
         android:id="@+id/txt_guitarbrand"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="@font/medievalsharp"
+        android:background="#B4000000"
         android:text="Modelo:"
         android:textSize="24sp"/>
     <TextView
         android:id="@+id/et_guitartype"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="#B4000000"
+        android:fontFamily="@font/medievalsharp"
         android:text="Tipo de guitarra:"
         android:textSize="24sp"/>
     <TextView
         android:id="@+id/txt_precio"
         android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:background="#B4000000"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/medievalsharp"
         android:text="Precio:"
         android:textSize="24sp"/>
+
     <TextView
         android:id="@+id/txt_storelocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#B4000000"
         android:text="Ubicación:"
-        android:textSize="24sp"/>
+        android:fontFamily="@font/medievalsharp"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
     <Button
         android:id="@+id/btn_salir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Salir" />
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/medievalsharp"
+        android:text="Salir"
+        android:textSize="34sp" />
 </LinearLayout>

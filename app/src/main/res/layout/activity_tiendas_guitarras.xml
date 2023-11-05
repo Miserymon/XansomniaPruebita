@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@mipmap/darksito"
     android:layout_height="match_parent"
     xmlns:map="http://schemas.android.com/apk/res-auto"
     tools:context=".TiendasGuitars">
@@ -42,19 +43,22 @@
         map:uiZoomControls="true"
         tools:layout_editor_absoluteX="5dp"
         tools:ignore="MissingConstraints" />
+
     <Button
         android:id="@+id/btn_mapVolver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="33dp"
         android:backgroundTint="@color/black"
-        android:textColor="@color/white"
+        android:fontFamily="@font/medievalsharp"
+        android:gravity="center"
         android:text="Volver"
+        android:textColor="@color/white"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TiendasGuitarra"
-        tools:layout_editor_absoluteX="157dp"
-        android:gravity="center"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="157dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
